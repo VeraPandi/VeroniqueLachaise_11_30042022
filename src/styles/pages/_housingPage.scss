@@ -50,6 +50,7 @@
 
    .collapse-description.active {
       padding: 24px 12px 5px;
+      border-radius: 10px;
 
       @media (min-width: 635px) {
          padding: 24px 12px 14px;
@@ -64,7 +65,7 @@
 
    .fa-chevron-down {
       @media (min-width: 1125px) {
-         right: -18px;
+         right: 0;
       }
    }
 }

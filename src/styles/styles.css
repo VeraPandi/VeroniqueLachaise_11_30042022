@@ -799,6 +799,7 @@ body {
 }
 .collapses-housing .collapse-description.active {
   padding: 24px 12px 5px;
+  border-radius: 10px;
 }
 @media (min-width: 635px) {
   .collapses-housing .collapse-description.active {
@@ -814,12 +815,15 @@ body {
 }
 @media (min-width: 1125px) {
   .collapses-housing .fa-chevron-down {
-    right: -18px;
+    right: 0;
   }
 }
 
 .main-about {
   min-height: 78vh;
+}
+.main-about .collapse-description.active {
+  border-radius: 5px;
 }
 
 .main-NotFoundPage {

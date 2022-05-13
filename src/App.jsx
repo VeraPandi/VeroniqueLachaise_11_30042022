@@ -9,7 +9,7 @@ import "./styles/styles.css";
 
 const App = () => {
    return (
-      <BrowserRouter>
+      <BrowserRouter basename="/VeroniqueLachaise_11_30042022">
          <Header />
          <Routes>
             <Route path="/" element={<Home />} />
