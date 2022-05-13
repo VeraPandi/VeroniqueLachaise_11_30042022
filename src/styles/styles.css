@@ -441,6 +441,15 @@ body {
 @media (min-width: 1125px) {
   .gallery img {
     height: 415px;
+  }
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1125px) {
+  .picture {
     margin: 0 80px;
   }
 }
@@ -458,11 +467,6 @@ body {
     font-weight: 500;
     color: #fff;
   }
-}
-
-.picture {
-  display: flex;
-  align-items: center;
 }
 
 .fa-chevron-right {

@@ -41,12 +41,7 @@ const Gallery = ({ pictures }) => {
                key={index}
             >
                {index === current && (
-                  <img
-                     className="picture"
-                     key={`${picture}-${index}`}
-                     src={picture}
-                     alt=""
-                  />
+                  <img key={`${picture}-${index}`} src={picture} alt="" />
                )}
             </div>
          ))}

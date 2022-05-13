@@ -14,8 +14,16 @@
 
       @media (min-width: 1125px) {
          height: 415px;
-         margin: 0 80px;
       }
+   }
+}
+
+.picture {
+   display: flex;
+   align-items: center;
+
+   @media (min-width: 1125px) {
+      margin: 0 80px;
    }
 }
 
@@ -31,11 +39,6 @@
       font-weight: 500;
       color: #fff;
    }
-}
-
-.picture {
-   display: flex;
-   align-items: center;
 }
 
 .fa-chevron-right {

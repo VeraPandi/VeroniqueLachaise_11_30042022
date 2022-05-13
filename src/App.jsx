@@ -1,4 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+   BrowserRouter as Router,
+   Routes,
+   Route,
+   Navigate,
+} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -9,16 +14,17 @@ import "./styles/styles.css";
 
 const App = () => {
    return (
-      <BrowserRouter basename="/VeroniqueLachaise_11_30042022">
+      <Router basename={process.env.PUBLIC_URL}>
          <Header />
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/housing/:id" element={<Housing />} />
-            <Route path="/*" element={<Error />} /> {/* 404 Page */}
+            <Route path="/404" element={<Error />} />
+            <Route path="*" element={<Navigate replace to="/404" />} />
          </Routes>
          <Footer />
-      </BrowserRouter>
+      </Router>
    );
 };
 
