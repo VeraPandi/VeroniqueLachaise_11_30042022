@@ -3,6 +3,7 @@
    align-items: center;
    justify-content: center;
    position: relative;
+   margin: 0 20px;
 
    @media (min-width: 1125px) {
       margin: 45px 0 40px;
@@ -12,7 +13,6 @@
       object-fit: cover;
       height: 111px;
       width: 100%;
-      margin: 0 20px;
       border-radius: 10px;
 
       @media (min-width: 1125px) {
