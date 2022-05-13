@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VeroniqueLachaise_11_30042022/static/css/main.960ea1aa.css",
-    "main.js": "/VeroniqueLachaise_11_30042022/static/js/main.61dbe208.js",
+    "main.css": "/VeroniqueLachaise_11_30042022/static/css/main.04a79335.css",
+    "main.js": "/VeroniqueLachaise_11_30042022/static/js/main.a304f4b7.js",
     "static/media/bannerAbout.png": "/VeroniqueLachaise_11_30042022/static/media/bannerAbout.e0a041a5118089917669.png",
     "static/media/bannerHome.png": "/VeroniqueLachaise_11_30042022/static/media/bannerHome.2ee42f869925e4acbc14.png",
     "static/media/errorCode.png": "/VeroniqueLachaise_11_30042022/static/media/errorCode.d76a60d8ab1bdaa28ba7.png",
     "index.html": "/VeroniqueLachaise_11_30042022/index.html",
-    "main.960ea1aa.css.map": "/VeroniqueLachaise_11_30042022/static/css/main.960ea1aa.css.map",
-    "main.61dbe208.js.map": "/VeroniqueLachaise_11_30042022/static/js/main.61dbe208.js.map"
+    "main.04a79335.css.map": "/VeroniqueLachaise_11_30042022/static/css/main.04a79335.css.map",
+    "main.a304f4b7.js.map": "/VeroniqueLachaise_11_30042022/static/js/main.a304f4b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.960ea1aa.css",
-    "static/js/main.61dbe208.js"
+    "static/css/main.04a79335.css",
+    "static/js/main.a304f4b7.js"
   ]
 }
