@@ -21,4 +21,4 @@ Développer une application Web avec React et React Router
 ## Réalisation
 
 -  Voir le projet fini : [Démo](https://verapandi.github.io/VeroniqueLachaise_11_30042022/)
--  Voir le projet fini en local : http://localhost:3000
+-  Voir le projet fini en local : http://localhost:3000/VeroniqueLachaise_11_30042022
