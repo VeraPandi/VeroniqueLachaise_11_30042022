@@ -428,6 +428,7 @@ body {
 }
 @media (min-width: 1125px) {
   .gallery {
+    height: 415px;
     margin: 20px 20px 0;
   }
 }
@@ -660,7 +661,7 @@ body {
 @media (min-width: 1125px) {
   .infos {
     position: relative;
-    margin: 0 100px 20px;
+    margin: 20px 100px;
   }
 }
 
